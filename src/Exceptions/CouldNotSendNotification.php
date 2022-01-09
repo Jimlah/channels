@@ -1,6 +1,6 @@
 <?php
+namespace NotificationChannels\SMSTo\Exceptions;
 
-namespace NotificationChannels\:channel_namespace\Exceptions;
 
 class CouldNotSendNotification extends \Exception
 {
