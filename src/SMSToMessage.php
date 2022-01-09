@@ -15,7 +15,7 @@ class SMSToMessage
         $this->to = $notifiable->routeNotificationFor('SMSTo');
     }
 
-    public function to(string $to): self
+    public function to(string|array $to): self
     {
         $this->to = $to;
 

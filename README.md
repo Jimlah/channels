@@ -22,16 +22,18 @@ This is where your description should go. Add a little code example so build can
 
 ## Contents
 
-- [Installation](#installation)
-	- [Setting up the :service_name service](#setting-up-the-:service_name-service)
-- [Usage](#usage)
-	- [Available Message methods](#available-message-methods)
-- [Changelog](#changelog)
-- [Testing](#testing)
-- [Security](#security)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
+- [A Boilerplate repo for contributions](#a-boilerplate-repo-for-contributions)
+  - [Contents](#contents)
+  - [Installation](#installation)
+    - [Setting up the :service_name service](#setting-up-the-service_name-service)
+  - [Usage](#usage)
+    - [Available Message methods](#available-message-methods)
+  - [Changelog](#changelog)
+  - [Testing](#testing)
+  - [Security](#security)
+  - [Contributing](#contributing)
+  - [Credits](#credits)
+  - [License](#license)
 
 
 ## Installation
