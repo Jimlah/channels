@@ -2,6 +2,7 @@
 
 namespace NotificationChannels\SMSTo;
 
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use NotificationChannels\SMSToChannel;
 
@@ -14,8 +15,8 @@ class SMSToServiceProvider extends ServiceProvider
     {
         $this->app->when(SMSToChannel::class)
             ->needs(SMSToClient::class)
-            ->give(function () {
-                return new SMSToClient(config('services.sms-to'));
+            ->give(function (Application $app) {
+                return new SMSToClient($app['config']['sms-to-channel']);
             });
     }
 
